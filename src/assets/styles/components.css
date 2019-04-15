@@ -1,0 +1,29 @@
+﻿/* 表格 */
+.table-wrap {
+  padding-top: 6px;
+}
+.mjb-table {
+  width: 100%
+}
+.is-scrolling-none {
+  height: 100%;
+}
+.el-table .cell {
+  line-height: 20px;
+}
+
+/* 表格排序按钮 */
+.el-table .caret-wrapper {
+  height: 23px;
+}
+.el-table .sort-caret.descending {
+  bottom: 0;
+}
+.el-table .sort-caret.ascending {
+  top: 0;
+}
+
+/* 表格统计栏 */
+.el-table__footer-wrapper tbody td {
+  color: #f00;
+}

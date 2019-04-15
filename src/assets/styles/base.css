@@ -1,0 +1,119 @@
+﻿/***主色调#00b38a*/
+
+body {
+  color: #333;
+  background: #eff0f3;
+  /** #f1f2f7;**/
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  padding: 0px !important;
+  margin: 0px !important;
+  font-size: 13px;
+}
+
+[v-authorize] {
+  display: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+ol,
+th,
+td,
+input,
+button {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+input,
+button,
+select {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.no-select-font {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+[v-cloak] {
+  display: none;
+}
